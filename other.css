@@ -74,14 +74,33 @@ p {
 }
 .button1 {
   color: hsl(31, 77%, 52%);
-
+}
+.button1:hover{
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  outline:hsl(0, 0%, 95%);
+  border: solid;
 }
 .button2 {
   color: hsl(184, 100%, 22%);
   margin-bottom: 50px;
 }
+.button2:hover{
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  outline:hsl(0, 0%, 95%);
+  border: solid;
+
+}
 .button3 {
   color: hsl(179, 100%, 13%);
+}
+.button3:hover{
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  outline:hsl(0, 0%, 95%);
+  border: solid;
+
 }
 
 @media only screen and (min-width: 800px) {
@@ -97,5 +116,25 @@ p {
   .column3{
     border-top-right-radius: 20px;
     border-bottom-left-radius: 0px;
+}
+.button1:hover{
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  outline:hsl(0, 0%, 95%);
+  border: solid;
+}
+.button2:hover{
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  outline:hsl(0, 0%, 95%);
+  border: solid;
+
+}
+.button3:hover{
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  outline:hsl(0, 0%, 95%);
+  border: solid;
+
 }
 }
